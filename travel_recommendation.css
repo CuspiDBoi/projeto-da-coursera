@@ -1,0 +1,130 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#barraDeNavegacao{
+  background-color: rgb(1,1,1);
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container img{
+  height: 20px;
+  width: auto;
+
+}
+
+.menu-navegacao{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+#barraDeNavegacao a{
+  color:white;
+  text-decoration: none;
+}
+
+.blocoPesquisa{
+  display: flex;
+  gap: 10px;
+  border-radius: 50px;
+  border: solid #ffffff;
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 40px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#botãoParaReservar{
+  display: flex;
+  gap: 10px;
+  border-radius: 50px;
+  border: none;
+  overflow: hidden;
+  height: 40px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+   background-color: aquamarine;
+}
+
+.botoesPesquisa{
+  border: none;
+  background-color: aquamarine;
+  color: #ffffff;
+  padding: 0px 15px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#caixaPesquisa{
+  border: none;
+  outline: none;
+}
+
+
+#secaoPrincipal{
+  background-image: url("/imagens/floresta_img_de_fundo.jpg");
+  background-size: cover;
+  color: #f9f2e7;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+se
+
+#secaoPrincipal h3{
+  width: 50%;
+}
+
+#redesSociais{
+  position: fixed;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.redesSociais{
+  height: 35px;
+  width: 35px;
+  /*background-color: white;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.redesSociais img{
+  width: 100%;
+  height: 100%;
+}
+
+.redesSociais:hover{
+  background-color: #007bff;
+  border-radius: 60%;
+}
+
+
